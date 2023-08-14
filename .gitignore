@@ -1,0 +1,31 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Files
+*.exe
+*.test
+*.prof
+*.out
+
+# Cache and temporary files
+*.cache
+*.log
+*.test
+*.prof
+*.out
+
+# Binary files
+*.bin
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Dependency directories
+vendor/
