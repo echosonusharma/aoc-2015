@@ -18,8 +18,6 @@ func Day1() {
 	currentFloor := 0
 	var basementPosition int
 
-	fmt.Println(basementPosition)
-
 	for i := 0; i < len(inputArr); i++ {
 		if currentFloor == -1 && basementPosition == 0 {
 			basementPosition = i

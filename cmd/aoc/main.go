@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("🦀")
+	fmt.Println("🦀 Rust is awesome!")
 	days.Day1()
+	days.Day2()
 }
