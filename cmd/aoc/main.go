@@ -10,4 +10,5 @@ func main() {
 	fmt.Println("🦀 Rust is awesome!")
 	days.Day1()
 	days.Day2()
+	days.Day3()
 }
