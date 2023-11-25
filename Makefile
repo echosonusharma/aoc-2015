@@ -1,2 +1,4 @@
+.DEFAULT_GOAL := run
+
 run:
-	go run cmd/aoc/main.go
+	@ go run ./cmd/main.go

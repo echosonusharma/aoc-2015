@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	utils "github.com/echosonusharma/aoc-2015/internal/common"
+	utils "github.com/echosonusharma/aoc-2015/internal"
 )
 
 func Day2() {

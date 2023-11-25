@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	utils "github.com/echosonusharma/aoc-2015/internal/common"
+	utils "github.com/echosonusharma/aoc-2015/internal"
 )
 
 func md5HashAString(srt *string) string {
@@ -53,7 +53,7 @@ func Day4() {
 		}
 	}
 
-	fmt.Println("Time Elapsed:", time.Since(startTime))
 	fmt.Printf("Answer for day 4, part 1 is : %s\n", part1)
 	fmt.Printf("Answer for day 4, part 2 is : %s\n", part2)
+	fmt.Println("Time Elapsed for day 4 :", time.Since(startTime))
 }

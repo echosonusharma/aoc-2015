@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"io/ioutil"
+	"os"
 	"path/filepath"
 )
 
@@ -9,7 +9,7 @@ func LoadFile(fileName string) (string, error) {
 	baseDir := "inputs"
 	filePath := filepath.Join(baseDir, fileName)
 
-	content, err := ioutil.ReadFile(filePath)
+	content, err := os.ReadFile(filePath)
 	if err != nil {
 		return "", err
 	}
